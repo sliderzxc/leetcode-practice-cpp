@@ -1,6 +1,11 @@
 #include <iostream>
+#include "9-palindrome-number.h"
 
 int main() {
-    std::cout << "Hello World!" << std::endl;
+    int number = 121211;
+    Solution solution = Solution();
+    bool result = solution.isPalindrome(number);
+    solution.isPalindrome(result);
+    std::cout << "result is - " << result;
     return 0;
 }
