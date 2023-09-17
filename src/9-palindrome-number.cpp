@@ -1,5 +1,3 @@
-#include <iostream>
-
 class Solution
 {
 public:
@@ -10,8 +8,8 @@ public:
             return false;
         }
 
-        int temp = x;
-        int numberReversed = 0;
+        long long temp = x;
+        long long numberReversed = 0;
         while (temp != 0)
         {
             int lastNum = temp % 10;
